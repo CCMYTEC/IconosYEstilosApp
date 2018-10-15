@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen_elemento_layout"
+        android:text="@string/texto_imgen_normal"
+        android:id="@+id/texto_imagen_normal"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton_imagen_normal"
+        android:background="@drawable/ic_action_send_now"
+        android:layout_below="@+id/texto_imagen_normal"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margen_elemento_layout"
+        android:text="@string/boton_con_imagen_9patch"
+        android:layout_below="@id/boton_imagen_normal"
+        android:id="@+id/texto_imagen_9patch"/>
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/boton_imagen_9patch"
+        android:background="@drawable/button_background"
+        android:layout_below="@+id/texto_imagen_9patch"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        />
+
+    <TextView
+        android:id="@+id/textoConEstilo"
+        android:text="Hello World!"
+        style="@style/miEstiloTextView"
+        android:layout_below="@id/boton_imagen_9patch"
+        android:layout_width="wrap_content" />
+
+</RelativeLayout>

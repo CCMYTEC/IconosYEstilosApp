@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196f3</color>
+    <color name="colorPrimaryDark">#0D47A1</color>
+    <color name="colorAccent">#FFF</color>
+    <color name="bar_color">#BBDEFB</color>
+    <color name="window_color">#FFF</color>
+    <color name="text_color">#fff</color>
+
+    <color name="primary_act">#4caf50</color>
+    <color name="primary_dark_act">#1b5e20</color>
+    <color name="accent_act">#FFF</color>
+    <color name="bar_color_act">#C8e6c9</color>
+    <color name="window_color_act">#FFF</color>
+    <color name="text_color_act">#fff</color>
+</resources>

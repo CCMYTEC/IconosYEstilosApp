@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Temas</string>
+    <string name="texto_imgen_normal">texto con imgen normal</string>
+    <string name="boton_con_imagen_9patch">Boton con imagen 9patch</string>
+
+</resources>
